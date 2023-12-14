@@ -52,23 +52,23 @@ export const HomePage = () => {
                                 </td>
                                 <td>
                                     <input
-                                        type="number"
+                                        type="text"
                                         value={item.des1}
-                                        onChange={e => handleChange(item.id, 'age', e.target.value)}
+                                        onChange={e => handleChange(item.id, 'des1', e.target.value)}
                                     />
                                 </td>
                                 <td>
                                     <input
-                                        type="email"
+                                        type="text"
                                         value={item.des2}
-                                        onChange={e => handleChange(item.id, 'email', e.target.value)}
+                                        onChange={e => handleChange(item.id, 'des2', e.target.value)}
                                     />
                                 </td>
                                 <td>
                                     <input
-                                        type="email"
+                                        type="text"
                                         value={item.des3}
-                                        onChange={e => handleChange(item.id, 'email', e.target.value)}
+                                        onChange={e => handleChange(item.id, 'des3', e.target.value)}
                                     />
                                 </td>
                             </tr>
